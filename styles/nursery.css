@@ -1,0 +1,519 @@
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway-bold-webfont.eot');
+    src: url('../fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-bold-webfont.woff') format('woff'),
+         url('../fonts/raleway-bold-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewayextrabold';
+    src: url('../fonts/raleway-extrabold-webfont.eot');
+    src: url('../fonts/raleway-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-extrabold-webfont.woff') format('woff'),
+         url('../fonts/raleway-extrabold-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-extrabold-webfont.svg#ralewayextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewayextralight';
+    src: url('../fonts/raleway-extralight-webfont.eot');
+    src: url('../fonts/raleway-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-extralight-webfont.woff') format('woff'),
+         url('../fonts/raleway-extralight-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-extralight-webfont.svg#ralewayextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewayheavy';
+    src: url('../fonts/raleway-heavy-webfont.eot');
+    src: url('../fonts/raleway-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-heavy-webfont.woff') format('woff'),
+         url('../fonts/raleway-heavy-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-heavy-webfont.svg#ralewayheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('../fonts/raleway-light-webfont.eot');
+    src: url('../fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-light-webfont.woff') format('woff'),
+         url('../fonts/raleway-light-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('../fonts/raleway-medium-webfont.eot');
+    src: url('../fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-medium-webfont.woff') format('woff'),
+         url('../fonts/raleway-medium-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular-webfont.eot');
+    src: url('../fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular-webfont.woff') format('woff'),
+         url('../fonts/raleway-regular-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('../fonts/raleway-semibold-webfont.eot');
+    src: url('../fonts/raleway-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-semibold-webfont.woff') format('woff'),
+         url('../fonts/raleway-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-semibold-webfont.svg#ralewaysemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('../fonts/raleway-thin-webfont.eot');
+    src: url('../fonts/raleway-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-thin-webfont.woff') format('woff'),
+         url('../fonts/raleway-thin-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-thin-webfont.svg#ralewaythin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'blackjackregular';
+    src: url('../fonts/black_jack-webfont.eot');
+    src: url('../fonts/black_jack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/black_jack-webfont.woff') format('woff'),
+         url('../fonts/../fonts/black_jack-webfont.ttf') format('truetype'),
+         url('../fonts/black_jack-webfont.svg#blackjackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.eot');
+    src: url('../fonts/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff'),
+         url('../fonts/alexbrush-regular-webfont.ttf') format('truetype'),
+         url('../fonts/alexbrush-regular-webfont.svg#alex_brushregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+/* automatically include padding and border in the width - does not include margins */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #9ea97d;
+}
+html body {
+	color: #4A4A4A;
+	background-color: white;
+	font-family: Georgia, serif;
+	font-size: 1.00em; 
+	position: relative;
+	border: 0px solid green;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.content {
+	background-color: white;
+	position: relative;
+	width: 1000px;
+	margin: 0px 25px 25px 25px;
+	border: 0px solid purple;	
+}
+header .innercontent, footer .innercontent  {
+	width: 1000px;
+	margin: 0;
+	position: relative;
+	height: 135px;
+}
+header .innercontent form {
+	float: right;
+	margin-top: 65px;
+}
+.btn {
+	border-radius: 5px;
+	background-color: #eee;
+	border-color: #bbb;
+	color: #77C91E; /* green */
+	padding: 2px 6px;
+}
+.btn:hover {
+	background-color: #eee;
+	border-color: gray;
+	color: #77C91E; /* green */
+}
+body header {
+	background-color: #9ea97d;
+	color: white;
+	border: 1px solid black;
+	width: 100%;
+	position: relative;
+	top: 0px;
+	left: 0;
+	height: 135px;
+	padding: 0px 25px 0px 25px;
+	margin: 0;
+	text-align: left;
+	font-size: 0.90em;
+	letter-spacing: 1px;
+}
+header nav {
+	width: 100%;
+	background-color: #4e543e;
+	position: absolute;
+	left: 0px;
+	right: 0;
+	bottom: -1px;
+	height: 35px;
+}
+/*vertically align text by setting the line-height equal to the containing element */
+header nav .topnav, footer nav .bottomnav {
+	list-style: none;
+	line-height: 35px;
+	height: 35px;
+	margin-top: 0px;
+	margin-left: 25px;
+	font-family: ralewaybold, Verdana, sans-serif;
+	font-size: 1.0em;
+	text-transform: uppercase;
+}
+
+footer nav .bottomnav {
+	line-height: 65px;
+	height: 65px;
+	letter-spacing: 1px;
+}
+nav li {
+ 	float: left;
+	margin: auto 0px;
+	vertical-align: middle;
+}
+nav a {
+	text-decoration: none;
+	color: white; 
+	padding-left: 15px;
+	padding-right: 15px;
+}
+header nav  a.first-child, footer nav  a.first-child {
+	padding-left: 0;
+	margin-left: 0;
+}
+nav  a:visited {
+	color: white;
+}
+nav  a:hover, a:active {
+	color: #eee;
+	text-decoration: none;
+}
+footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	height:100%;
+	min-height:65px;
+	width: 100%;
+	/*padding: 0px 0px;*/
+	background-color: #9ea97d;
+	font-size: 0.85em;
+	color: white;
+}
+footer .left-footer {
+	padding-top: 0px;
+	float: left;
+}
+footer .right-footer {
+	float: right;
+	padding-right: 25px;
+	height: 100%;
+	margin-top: 15px;
+}
+section {
+	background-color:white;
+}
+.clearfix {
+	clear:both;
+}
+h1, h2, h3, h4 {
+	font-family: 'ralewaythin', Courier, sans-serif;
+	color: #2b9014;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding-bottom: 0;	
+}
+header h1 {
+    font-family: 'alex_brushregular';
+	color: white;
+	font-size: 3.0em;
+	position: absolute; 
+	top: 17px; 
+	left: 100px;
+}
+header h1:first-letter {
+	font-size: 73px;
+}
+h2+p, h3+p, h4+p, h2+ul, h2+h3  {
+	margin-top: 0;
+	padding-top: 0;
+}
+.recent h3 {
+	margin-top:5px;
+}
+h2 {
+	font-size: 1.3em;
+	width: 100%;
+	letter-spacing: 1.2px;
+	font-family: 'ralewaylight', Verdana, sans-serif;
+}
+h3 {
+	font-size: 1.3em;
+}
+h4 {
+	font-size: 1.1em;
+}
+figure {
+   display: table;
+   	margin: 0;
+   	margin-right: 10px;
+	padding: 0;
+}
+figure img {
+	border: 1px solid #ccc;
+	padding: 7px 7px 7px 7px;
+	height: auto;
+}
+.projects .project img[alt="snail"] {
+	padding: 7px;
+	margin-right:-5px;
+	border: 1px solid white;
+}
+.other .featured img[alt="Hummer"] {
+	margin-right: 10px;
+	margin-top: 10px;
+	border: 1px solid white;
+}
+.other .featured img[alt="Butterfly"] {
+	margin-left: 10px;
+	border: 1px solid white;
+}
+figure img:hover {
+	border: 1px solid purple;
+}
+section figure {
+    float: left;
+    clear: both;
+    position: relative;
+    overflow: auto;
+    margin: 0 auto;
+}
+section figure img {
+    vertical-align: bottom;
+}
+section figure figcaption {
+    position: absolute;
+    bottom: 7px;
+    left: 7px;
+    right: 7px;
+
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: #fff; 
+    padding: 10px;
+    font-style: italic;
+}
+.content section.in-bloom .plant figure figcaption{
+	padding: 5px;
+
+}
+.content section.in-bloom .plant figure img{
+	width: 200px;	
+}
+.content section.in-bloom .plant img[alt="left arrow"] {
+	position: absolute; 
+	top: 37px; 
+	left: 13px; 
+	z-index: 100;
+}
+.content section.in-bloom .plant img[alt="right arrow"] {
+	position: absolute; 
+	top: 37px; 
+	right: 24px; 
+	z-index: 100;
+}
+.content section.featured {
+	margin-top: 15px;
+}
+.content section.projects h2 {
+	margin-top: 0px;
+}
+.content section.featured figure  {
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+.content section.featured figure figcaption {
+    position: absolute;
+ 	font-size: 0.90em;
+ 	bottom:-30px;
+    left: 0px;
+    right: 0px;
+    background: none;
+    text-align: center;
+    padding: 10px;
+	color: #4A4A4A;
+}
+.content .left-side {
+	width: 650px;
+	float: left;
+}
+.content .work,.content .intro1 {
+	width: 100%;
+	float: left;
+	margin: 0 25px 0 0px;
+}
+.content .other, .content .intro2 {
+	width: 33%;
+	margin: 0 0 0% 15px;
+	float: left;
+}
+.in-bloom .plant {
+	width: 214px;
+	display: inline-block;
+	position: relative;
+} 
+.projects {
+	position: relative;
+}
+.projects .project {
+	width: 214px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.other .happening {
+	width: 100%;
+	height: 274px;
+	border-bottom: 0px solid gray;
+}
+.other .event div:first-child{
+	color: #ccc;
+	font-style: italic;
+	width: 150px;
+}
+.intro h2 {
+	font-family: 'ralewaylight', Verdana, sans-serif;
+	background-color: #F2AF1D;
+	color:white;
+	height: 46px;
+	font-size: 1.8em;	
+	text-shadow: 1px 1px 1px #ddd;
+	width: 94%;
+	margin-bottom: 0; 
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.content .recent h3 {
+	width:100%;
+	text-align:center; 
+	margin-bottom: 15px; 
+}
+div.hr {
+   height: 12px;
+   background: #fff url(../images/hr1_sm.gif) no-repeat scroll center;
+   margin: 0;
+ }
+ div.hr hr {
+   display: none;
+ }
+ hr.faded {
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 1px;
+  margin: 1.4em 0;
+  margin: 5px 0;
+  border: none; 
+  background: #ddd;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      right bottom,
+      color-stop(0, rgb(255,255,255)),
+      color-stop(0.1, rgb(221,221,221)),
+      color-stop(0.9, rgb(221,221,221)),
+      color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(221,221,221) 10%,
+      rgb(221,221,221) 90%,
+      rgb(255,255,255) 100%
+  );
+}
+em ul {
+	margin-top: 0;
+	padding-top: 0;
+}
+a {
+	text-decoration: none;
+	color: #77C91E; /* green */
+}
+a:visited {
+	color: #B9CFA1; /* green */
+}
+a:hover, a:active {
+	color: #89F218; /* green */
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+	position: relative;
+	margin-left: 1em;
+	padding-left: 0;
+	margin-left: 3.3em;
+}
+/* green dots */
+.content li:before {
+	content: "\2022";
+	position: absolute;
+	left: -1em;
+	color: #4A4A4A; /* green */
+	margin-right: 5px;
+	left: -1.3em;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 150px) and (max-width: 480px ) {
+	body {
+		font-size: 0.95em;
+	}
+	.content {
+ 		width: 90%;
+	}
+}
